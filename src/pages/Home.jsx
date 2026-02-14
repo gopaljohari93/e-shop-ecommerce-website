@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Categories, mockData } from "../assets/mockData";
-import HeroImage from "../assets/images/heropage2.jpg";
+import HeroImage from "../assets/images/heropage2.webp";
 import InfoSection from "../components/InfoSection";
 import CategorySection from "../components/CategorySection";
 import { setProducts } from "../redux/productSlice";

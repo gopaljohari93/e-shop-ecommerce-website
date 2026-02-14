@@ -1,16 +1,68 @@
-# React + Vite
+# 🛒 E-Shop Ecommerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **E-shop Ecommerce web application** built with React, featuring dynamic product listings, cart management, and a clean user-friendly interface.  
+This project demonstrates real-world ecommerce functionality using scalable state management and modern UI practices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## React Compiler
+👉 https://e-shop-ecommerce-web.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛍️ Dynamic product listing
+- 🛒 Add to Cart / Remove from Cart functionality
+- 🔢 Product quantity management
+- 💰 Cart total price calculation
+- ⚛️ Global state management using Redux Toolkit
+- 🧭 Smooth navigation with React Router DOM
+- 🎨 Modern UI using Tailwind CSS
+- 📱 Fully responsive across all devices
+- ⚡ Optimized rendering and clean component structure
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- JavaScript (ES6+)
+- React Router DOM
+- Redux Toolkit
+- Tailwind CSS
+- React Icons
+
+---
+
+## 📂 Project Structure
+
+```bash
+e-shop-ecommerce/
+│── public/
+│── src/
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── common/
+│   │   ├── product/
+│   │   ├── cart/
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Products.jsx
+│   │   ├── Cart.jsx
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── cartSlice.js
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│── package.json
+│── tailwind.config.js
+│── README.md
+```
